@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "633876067676",
+    "firebase_url": "https://dsa-project-e0a29.firebaseio.com",
+    "project_id": "dsa-project-e0a29",
+    "storage_bucket": "dsa-project-e0a29.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:633876067676:android:579409a71ac9c5ce",
+        "android_client_info": {
+          "package_name": "com.dsa.shaheenpc.finalproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "633876067676-udtrclbqsfrqn65sh4k29n2r3l6jd7i3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2O8FWatRxVd56R9aiHLiSY8nS5iJuqvA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "633876067676-udtrclbqsfrqn65sh4k29n2r3l6jd7i3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

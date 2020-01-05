@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color1"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="20dp"
+        android:alpha="0.8"
+        android:background="@drawable/edittext_style">
+
+        <ImageView
+            android:id="@+id/imgView_Icon"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@color/color2"
+            android:padding="8dp"
+            android:src="@drawable/email"
+            android:tint="@color/colorWhite" />
+
+        <EditText
+            android:id="@+id/mail1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imgView_Icon"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/imgView_Icon"
+            android:hint="Username"
+            android:paddingLeft="20dp"
+            android:theme="@style/MyEditTextStyle2"
+            android:inputType="textEmailAddress"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="20dp"
+        android:alpha="0.8"
+        android:background="@drawable/edittext_style">
+
+        <ImageView
+            android:id="@+id/imgView_userIcon"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@color/color2"
+            android:padding="8dp"
+            android:src="@drawable/lock"
+            android:tint="@color/colorWhite" />
+
+        <EditText
+            android:id="@+id/pass1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imgView_userIcon"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/imgView_userIcon"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:paddingLeft="20dp"
+            android:theme="@style/MyEditTextStyle2" />
+
+    </RelativeLayout>
+    <Button
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/buttonstyle_1"
+            android:onClick="Login"
+            android:text="LOGIN"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold" />
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/buttonstyle_2"
+            android:onClick="create_account_activity"
+            android:text="Create Account"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold" />
+
+</LinearLayout>

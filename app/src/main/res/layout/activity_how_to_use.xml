@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color1"
+    tools:context=".how_to_use">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="15dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@+id/linearLayout4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/t1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="How to use this App"
+                android:textColor="@color/colorWhite"
+                android:textSize="35sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/t2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="5dp"
+                android:text="1: Single Number Search"
+                android:textColor="@color/color4"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:id="@+id/t3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="5dp"
+                android:padding="5dp"
+                android:text="User can check his bond by entering the single number. His search will be stored in the device storage and the user can check his bond again from the storage. This part is helpful for the single numbers only."
+                android:textColor="@color/colorWhite"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/t4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="5dp"
+                android:text="2: Range Number Search"
+                android:textColor="@color/color4"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:id="@+id/t5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="5dp"
+                android:padding="5dp"
+                android:text="User can enter the  starting and the ending limit to search the number where the bond exists.Range Search part will show all the possible numbers between the range set by the users where the bonds exist.
+"
+                android:textColor="@color/colorWhite"
+                android:textSize="15sp"
+                android:textStyle="bold"/>
+
+
+            <TextView
+                android:id="@+id/t6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="5dp"
+                android:text="3: Random Number Search"
+                android:textColor="@color/color4"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:id="@+id/t7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="5dp"
+                android:textColor="@color/colorWhite"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:text="user can input more than one his prize bond numbers.These numbers will also be stored in the database of the mobile.He can check his all bond number on single click on the search button.User can also check his numbers from the database and this time he will not input the numbers.In this way he can check his all the  possible bond number on single click on the search buton."/>
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

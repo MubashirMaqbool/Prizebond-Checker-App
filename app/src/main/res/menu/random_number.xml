@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.shaheenpc.project.random_numbers_search_activity">
+    <item
+        android:id="@+id/randomHistory"
+        android:orderInCategory="100"
+        android:title="SHOW SEACHED NUMBERS"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_history_black_24dp"/>
+</menu>

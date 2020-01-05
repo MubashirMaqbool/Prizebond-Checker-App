@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dsa.shaheenpc.finalproject">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"></uses-permission>
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="PRIZE BOND CHECKER"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".First_page"
+            android:screenOrientation="portrait"
+            android:theme="@style/first_page">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".login_page"
+            android:screenOrientation="portrait"
+            android:theme="@style/login_page" />
+        <activity
+            android:name=".create_account"
+            android:screenOrientation="portrait"
+            android:theme="@style/create_account" />
+        <activity
+            android:name=".dash_board"
+            android:screenOrientation="portrait"
+            android:theme="@style/dash_board" />
+        <activity
+            android:name=".single_number_search"
+            android:screenOrientation="portrait"
+            android:theme="@style/single" />
+        <activity
+            android:name=".range_search"
+            android:screenOrientation="portrait"
+            android:theme="@style/range" />
+        <activity
+            android:name=".Database_record"
+            android:screenOrientation="portrait"
+            android:theme="@style/single" />
+        <activity
+            android:name=".single_number_search_2"
+            android:screenOrientation="portrait"
+            android:theme="@style/single" />
+        <activity
+            android:name=".how_to_use"
+            android:screenOrientation="portrait"
+            android:theme="@style/how_to" />
+        <activity
+            android:name=".random_numbers_search_activity"
+            android:screenOrientation="portrait"
+            android:theme="@style/single" />
+        <activity
+            android:name=".random_search_database"
+            android:screenOrientation="portrait"
+            android:theme="@style/single"></activity>
+        <activity android:name=".Search_by_file"
+            android:theme="@style/single"
+            android:screenOrientation="portrait"></activity>
+    </application>
+
+</manifest>
